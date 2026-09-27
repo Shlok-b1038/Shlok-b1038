@@ -74,7 +74,7 @@ placeShip(grid, 4, 2)
 placeShip(grid, 2, 3)
 printGrid(grid)
 
-# Still working on the user interface so far only shape placement has been done
+# Still working on the user interface so far only ship placement has been done
 
 
 def evaluateCoordinate(xValue, yValue):
@@ -114,4 +114,4 @@ while not gameOver:
 
 
 print("You solved the battleship")
-# Still working on the user interface so far only shape placement has been done
+# Still working on the user interface so far only ship placement has been done

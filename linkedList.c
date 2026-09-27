@@ -44,6 +44,7 @@ void insertTail(int nodeValue) {
 
     if (head == NULL) {
         head = newNode;
+        return; // So the code stops right here without going further
     }
 
     Node *current = head;
@@ -79,17 +80,17 @@ int main() {
     head->next = nextNode;
     nextNode->next = NULL;
 
-    printList();
-    insertHead(15);
-    printList();
-
-    insertTail(44);
-    printList();
-
-    deleteNode(10);
-    printList();
-
-    freeList();
+    // printList();
+    // insertHead(15);
+    // printList();
+    //
+    // insertTail(44);
+    // printList();
+    //
+    // deleteNode(10);
+    // printList();
+    //
+    // freeList();
 
     return 0;
 };

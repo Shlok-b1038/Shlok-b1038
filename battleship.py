@@ -27,7 +27,6 @@ def placeShip(matrix, size, sign):
             if matrix[row][column + counter] != 0:
                 # print("found issue")
                 checked = True
-                checked = True
                 break
             else:
                 counter += 1
